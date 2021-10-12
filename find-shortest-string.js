@@ -7,6 +7,8 @@
  * @param {string[]} stringArr - array of strings
  * @returns {string} - the shortest string
  */
+
+const star = 0;
 function findShortestString(
 stringArr
 )
