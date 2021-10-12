@@ -8,9 +8,8 @@
  * @returns {string} - the shortest string
  */
 
-const star = 0;
 function findShortestString(stringArr) {
-  const shortestString = stringArr[0];
+  let shortestString = stringArr[0];
   for (let str of stringArr) {
     if (str.length < shortestString.length) {
       shortestString = str;
